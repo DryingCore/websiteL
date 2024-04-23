@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(232, 215, 255);
+}
+  
+
+header{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   background-color: rgb(34, 0, 66);
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}#left {
+    color: rgb(34, 0, 66) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 64px 80px;
+    
+}
+
+
+.left{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+} 
+.left h3 {
+    border: 2px solid rgb(34, 0, 66);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.left .paragrafo{
+    border-right: 1px solid rgb(34, 0, 66);
+    border-bottom: 1px solid rgb(34, 0, 66);
+    border-left: 1px solid rgb(34, 0, 66);
+    border-radius: 0 0 8px 8px ;
+    padding: 0px 30px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .3s;
+    
+}
+.left.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+    
+}
+.paragrafo a{
+    text-decoration: none;
+}
+.larah-img{
+    margin-left: 90px;
+    
+}
+.img-larah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
