@@ -1,7 +1,7 @@
-const elementosLeft = document.querySelectorAll("#containerLeft");
+const elements = document.getElementById("#containerLeft");
 
-elementosLeft.forEach(function (left) {
-	left.addEventListener("click", function () {
-		left.classList.toggle("active");
+elements.forEach(function (item) {
+	item.addEventListener("click", function () {
+		item.classList.toggle("active");
 	});
 });
