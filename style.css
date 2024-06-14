@@ -33,7 +33,7 @@ header{
     border-radius: 8px;
     position: relative;
 } 
-.left h3 {
+.left h1 {
     border: 2px solid rgb(34, 0, 66);
     border-radius: 8px;
     cursor: pointer;
