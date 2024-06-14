@@ -1,4 +1,4 @@
-const elementosLeft = document.querySelectorAll(".left");
+const elementosLeft = document.querySelectorAll("#containerLeft");
 
 elementosLeft.forEach(function (left) {
 	left.addEventListener("click", function () {
