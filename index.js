@@ -1,3 +1,3 @@
-document.getElementById("containerLeft").addEventListener("click", element => {
-	element.target.classList.toggle("active");
+document.getElementById("containerLeft").addEventListener("click", () => {
+	this.classList.toggle("active");
 });
