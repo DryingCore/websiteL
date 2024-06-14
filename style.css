@@ -51,13 +51,13 @@ header {
 	transition: 0.3s;
 }
 
-.left.ativa .paragrafo {
+.left.ativa .paragraph {
 	height: fit-content;
 	opacity: 1;
 	padding: 24px;
 }
 
-.paragrafo a {
+.paragraph a {
 	text-decoration: none;
 }
 
