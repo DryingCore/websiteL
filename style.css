@@ -61,11 +61,11 @@ header {
 	text-decoration: none;
 }
 
-.larah-img {
+.imgContainer {
 	margin-left: 90px;
 }
 
-.img-larah {
+.larahImg {
 	display: flex;
 	align-items: center;
 	justify-content: center;
