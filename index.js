@@ -1,7 +1,3 @@
-const elements = document.getElementById("containerLeft");
-
-elements.forEach(function (item) {
-	item.addEventListener("click", function () {
-		item.classList.toggle("active");
-	});
+document.getElementById("containerLeft").addEventListener("click", element => {
+	element.target.classList.toggle("active");
 });
